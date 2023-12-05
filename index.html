@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fs-3" href="#">Zaenudin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home start -->
+    <section id="Home">
+      <div class="home">
+        <div class="home-item">
+          <h2>Hi! I Am</h2>
+          <h1>Zaenudin</h1>
+          <p>A Sofware Engineer based in Indonesia</p>
+          <a href="#About" class="btn">Resume</a>
+        </div>
+        <div>
+          <img src="img/1.png" alt="" />
+        </div>
+      </div>
+      <div class="home-info">
+        <a class="text-decoration-none text-dark" href="#About">More Info</a>
+        <img src="img/hover.svg" alt="arrow icon" />
+      </div>
+    </section>
+    <!-- home end -->
+    <!-- About Start -->
+    <section id="About" class="about container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
+        nisi obcaecati magnam dolores temporibus ut eaque, atque, tenetur
+        reprehenderit voluptates quasi veritatis totam fugit est quas iste
+        suscipit in? Accusamus accusantium nisi odio omnis ullam minus nostrum,
+        deleniti nam commodi quaerat suscipit corrupti dolorem quas quod a
+        molestias nulla laborum?
+      </p>
+      <div class="about-exp">
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Sofware engineer</h5>
+              <p>Coding Studio (2023-Now)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">
+              More Info
+            </button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            molestiae inventore animi? Sit totam veritatis similique perferendis
+            quam illo corrupti sint, quod soluta officiis placeat ea architecto
+            maiores fuga ipsa?
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Sofware engineer</h5>
+              <p>Coding Studio (2023-Now)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">
+              More Info
+            </button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            molestiae inventore animi? Sit totam veritatis similique perferendis
+            quam illo corrupti sint, quod soluta officiis placeat ea architecto
+            maiores fuga ipsa?
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5>Sofware engineer</h5>
+              <p>Coding Studio (2023-Now)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">
+              More Info
+            </button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            molestiae inventore animi? Sit totam veritatis similique perferendis
+            quam illo corrupti sint, quod soluta officiis placeat ea architecto
+            maiores fuga ipsa?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About end -->
+    <!-- work start -->
+    <section id="Work" class="container work">
+      <div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+            aspernatur. Explicabo laboriosam labore odit totam, itaque
+            repudiandae quo nemo ex dolor non vero vel dignissimos
+            exercitationem eos iure suscipit ullam nostrum error molestiae
+            tempora.
+          </p>
+        </div>
+        <div class="card-item">
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Work 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Work 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Work 3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- work end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
