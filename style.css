@@ -104,11 +104,14 @@ section::before {
     border-radius: 360px;
     border: 1px;
   }
+  section::before {
+    left: -0px;
+  }
   .card-item {
     flex-direction: column;
     row-gap: 24px;
   }
   .container {
-    padding-inline: 62px;
+    padding-inline: 64px;
   }
 }
