@@ -94,6 +94,14 @@ section::before {
 .work::before {
   content: "Work";
 }
+
+.contack::before {
+  content: "Contact";
+}
+.contact-form {
+  border: 2px solid black;
+  padding: 64px 32px;
+}
 @media (max-width: 756px) {
   .home {
     flex-direction: column-reverse;
