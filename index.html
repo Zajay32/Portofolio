@@ -211,24 +211,39 @@
           </div>
         </div>
         <div class="col contact-form">
-          <form>
+          <form onsubmit="onFormSubmit(event)">
             <div class="mb-3">
-              <label for="inp_Email" class="col-sm-2 col-form-label"
+              <label for="inp_email" class="col-sm-2 col-form-label"
                 >Email</label
               >
-              <input type="email" class="form-control" id="inp_Email" />
+              <input
+                type="email"
+                class="form-control"
+                id="inp_email"
+                placeholder="example@gmail.com"
+              />
             </div>
             <div class="mb-3">
               <label for="inp_Subject" class="col-sm-2 col-form-label"
                 >Subject</label
               >
-              <input type="text" class="form-control" id="inp_Subject" />
+              <input
+                type="text"
+                class="form-control"
+                id="inp_Subject"
+                placeholder="Your Subject"
+              />
             </div>
             <div class="mb-3">
-              <label for="inp_Masage" class="col-sm-2 col-form-label"
+              <label for="inp_Massage" class="col-sm-2 col-form-label"
                 >Massage</label
               >
-              <input type="text" class="form-control" id="inp_Masage" />
+              <input
+                type="text"
+                class="form-control"
+                id="inp_Massage"
+                placeholder="Your Massage"
+              />
             </div>
             <div class="d-flex justify-content-lg-center">
               <button type="submit" class="btn button">Sumbit</button>

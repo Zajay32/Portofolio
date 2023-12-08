@@ -11,3 +11,25 @@ function toggleDetail(e) {
   $(detail).slideToggle();
   console.log($(target).parents(".about-exp-item"));
 }
+
+function onFormSubmit(e) {
+  e.preventDefault();
+  const email = $("inp_email");
+  const Subject = $("inp_Subject");
+  const Massage = $("inp_Massage");
+
+  console.log();
+
+  if (!$(email).val()) {
+    alert("Email is required");
+  } else if (!$(Subject).val()) {
+    alert("Subject is required");
+  } else if (!$(Massage).val()) {
+    alert("Massage is required");
+  } else {
+    alert("Form Sumbitted");
+    !$(email).val("");
+    !$(Subject).val("");
+    !$(Massage).val("");
+  }
+}
