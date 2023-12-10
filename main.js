@@ -14,11 +14,9 @@ function toggleDetail(e) {
 
 function onFormSubmit(e) {
   e.preventDefault();
-  const email = $("inp_email");
-  const Subject = $("inp_Subject");
-  const Massage = $("inp_Massage");
-
-  console.log();
+  const email = $("#inp_email");
+  const Subject = $("#inp_Subject");
+  const Massage = $("#inp_Massage");
 
   if (!$(email).val()) {
     alert("Email is required");
